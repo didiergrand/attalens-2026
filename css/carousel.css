@@ -1,0 +1,37 @@
+/* Omly the new code for the carousel  udpate 10.2023 */
+
+.home-carousel{
+    position: relative;
+    margin-bottom: 25px;
+}
+.home-carousel .slick-prev {
+    width: 40px;
+    height: 40px;
+    left: 25px;
+    z-index: 1;
+}
+.home-carousel .slick-next {
+    width: 40px;
+    height: 40px;
+    right: 25px;
+    z-index: 1;
+}
+.bienvenue{
+    height: 100%;
+}
+.home-carousel .slick-slide img{
+    width: 100%;
+}
+.home-carousel .slick-prev::before, 
+.home-carousel .slick-next::before {
+    font-size: 40px;
+}
+
+
+.swiffy-slider button:hover,
+.swiffy-slider button:focus{
+    background: inherit !important;
+}
+.slider-container img{
+    width: 100%;
+}

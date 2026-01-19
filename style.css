@@ -1,0 +1,17 @@
+/*
+Theme Name: Theme Attalens
+Author: Didier Grand
+Author URI: http://digitalgarage.ch
+Version: 1.0
+Text Domain: theme-attalens
+
+*/
+@import 'css/style.css';
+@import 'css/carousel.css';
+@import 'css/events.css';
+
+body:not(.admin-bar) {
+    .admin-dg {
+        display: none !important;
+    }
+}
