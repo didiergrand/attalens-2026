@@ -215,12 +215,7 @@ th {
   img {
     page-break-inside: avoid; }
   img {
-      height: auto;
-      /* Make sure images are scaled correctly. */
-      max-width: 100%;
-      /* Adhere to container width. */
-      vertical-align: middle;
-    }
+    max-width: 100% !important; }
   p,
   h2,
   h3 {
@@ -1092,8 +1087,13 @@ a {
 figure {
   margin: 0; }
 
-img {
-  vertical-align: middle; }
+  img {
+    height: auto;
+    /* Make sure images are scaled correctly. */
+    max-width: 100%;
+    /* Adhere to container width. */
+    vertical-align: middle;
+  }
 
 .img-responsive {
   display: block;
