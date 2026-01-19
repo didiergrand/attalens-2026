@@ -9,9 +9,4 @@ Text Domain: theme-attalens
 @import 'css/style.css';
 @import 'css/carousel.css';
 @import 'css/events.css';
-
-body:not(.admin-bar) {
-    .admin-dg {
-        display: none !important;
-    }
-}
+@import 'css/design.css';

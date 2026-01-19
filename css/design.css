@@ -1,0 +1,120 @@
+
+body:not(.admin-bar) {
+    .admin-dg {
+        display: none !important;
+    }
+}
+.wp-post-navigation{
+	margin-top:50px;
+}
+.wp-post-navigation div{
+	width:50%
+}
+.iva-bh-oc-dot,
+.dev{
+	display:none;
+}
+.logged-in .dev{
+	display:block;
+}
+
+.iva_bhp_hours_row .days:first-letter{
+	text-transform:uppercase;
+}
+.iva_bhp_hours_row .days{
+	width:60% !important;
+}
+.iva_bhp_hours_row .hours{
+	width:40% !important;
+}
+
+.hours.widget{
+	padding-top:0;
+}
+.hours.widget h2{
+	background-color:#9fb224;
+	margin:0 -1.5rem 2rem;
+	padding:1.5rem;
+	color:#fff;
+}
+
+.hours.widget .ivabh-businesshours:first-of-type{
+	padding-bottom:0.6rem;
+	margin-bottom:1.2rem;
+	border-bottom:1px solid #ddd;
+}
+.pum-theme-theme-par-defaut .pum-title {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 24px;
+		text-transform:uppercase;
+    background-color:#9fb224;
+    margin:-30px -30px 30px -30px;
+    padding: 30px;
+}
+.pum-theme-theme-par-defaut .pum-content + .pum-close{
+    font-size: 48px;
+    top: 20px;
+    left: auto;
+    right: 20px;
+}
+html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden]{
+	padding-right:0;
+}
+.hours.widget h3{
+	margin-bottom:0
+}
+.widget button, .widget input[type="button"], .widget input[type="reset"], .widget input[type="submit"] {
+    line-height: 1;
+    padding: 0.846153846em;
+}
+button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #9fb224;
+}
+#aam_backend_login-2 label{
+	font-weight:normal;
+	width:100%;
+	max-width:280px;
+}
+li.cat-post-item > div{
+	display:initial;
+}
+li.cat-post-item{
+	padding-bottom:5px;
+}
+.wpp-list li{
+	margin-bottom:0 !important
+}
+li.cat-post-item > div > a{
+	line-height:18px
+}
+.mabel-bhi-businesshours.table tr td{
+	border:0;
+	text-align:right;
+    border-bottom: 1px solid rgba( 0, 0, 0, 0.1 );
+    padding: 8px 0;
+}
+.mabel-bhi-businesshours.table tr td.mabel-bhi-day{
+	text-align:left;
+	text-transform:capitalize;
+}
+.mbhi-is-current{
+	color:#b1c23d;
+}
+.hours.widget .mabel-bhi-businesshours.table tr td{
+ border:0;
+}
+.hours.widget #block-8 .mbhi-is-current{
+	color:#333333
+}
+#block-8 *,
+#block-9 *{
+	margin:0
+}
+#block-8{
+	margin-top:20px
+}
+#block-9 a{
+	color:#333;
+}
+
