@@ -141,6 +141,29 @@ function codex_custom_init() {
      'hierarchical' => true
    )
  );
+  /*register_taxonomy(
+  'dicastere_categorie',
+  'dicastere',
+   array(
+     'label' => 'Catégories',
+     'labels' => array(
+       'name' => 'Catégories',
+       'singular_name' => 'Catégorie',
+       'all_items' => 'Toutes les catégories',
+       'edit_item' => 'Éditer la catégorie',
+       'view_item' => 'Voir la catégorie',
+       'update_item' => 'Mettre à jour la catégorie',
+       'add_new_item' => 'Ajouter une catégorie',
+       'new_item_name' => 'Nouvelle catégorie',
+       'search_items' => 'Rechercher parmi les catégories',
+       'popular_items' => 'Catégories les plus utilisées'
+     ),
+     'hierarchical' => true
+   )
+ );*/
+  register_taxonomy_for_object_type( 'pilier_public_categorie', 'pilier_public' );
+  //register_taxonomy_for_object_type( 'dicastere_categorie', 'dicastere' );
+}
 
 add_action('init', 'codex_custom_init');
 
