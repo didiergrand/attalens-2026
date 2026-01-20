@@ -117,4 +117,21 @@ li.cat-post-item > div > a{
 #block-9 a{
 	color:#333;
 }
+#footer-bottom{
+	background-color:#333;
+	padding:16px;
+	color:#fff;
+}
+#footer-bottom a{
+	color:#fff;
+}
+#footer-bottom a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+.wp-block-separator,
+hr {
+  border: 1px solid #ccc !important;
+  border-top: 1px solid #ccc !important;
+}
 

@@ -31,6 +31,13 @@
     </div>
   </div>
 </footer>
+<div id="footer-bottom">
+  <div class="container">
+    <div class="row">      
+      <div class="col-sm-12"> <a href="<?php echo home_url('/declaration-de-protection-des-donnees/'); ?>">Déclaration de protection des données</a>  |  <a href="<?php echo home_url('/declaration-de-protection-des-donnees/#cookies'); ?>">Politique de cookies</a>  |  <a class="cmplz-show-banner">Gérer le consentement</a></div>
+    </div>
+  </div>
+</div>
 <!-- .site-footer -->
 </div>
 <!-- .site-inner -->

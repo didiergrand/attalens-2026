@@ -7439,7 +7439,7 @@ h6 {
   margin-bottom: 0;
   line-height: 1.4rem;
   font-size: 1.5rem;
-  letter-spacing: 2px; }
+  letter-spacing: 0.5px; }
 
 
 b,
@@ -7490,7 +7490,7 @@ h1.entry-title {
 .homepage-content .entry-content h3,
 .homepage-content h3 {
   font-size: 1rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   text-transform: none; }
 
 
@@ -7670,7 +7670,7 @@ footer#footer {
   background-color: #4B4B4B; }
 
   footer#footer b, footer#footer p {
-    letter-spacing: 1px; }
+    letter-spacing: 0.5px; }
 
   footer#footer b {
     font-weight: lighter; }
@@ -7969,7 +7969,7 @@ li.cat-post-item > div > a {
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-toggle-on > a.mega-menu-link {
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 1px; }
+  letter-spacing: 0.5px; }
 
   @media (min-width: 992px) and (max-width: 1199px) {
     #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link,
