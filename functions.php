@@ -82,7 +82,9 @@ function theme_attalens_widgets_init() {
 
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
-    wp_enqueue_style( 'theme-attalens-style', get_stylesheet_uri() );
+	$style_path = get_stylesheet_directory() . '/style.css';
+	$style_version = file_exists( $style_path ) ? filemtime( $style_path ) : null;
+    wp_enqueue_style( 'theme-attalens-style', get_stylesheet_uri(), array(), $style_version );
 
 }
 function codex_custom_init() {
@@ -118,36 +120,6 @@ function codex_custom_init() {
 			)
 	   );
 
-	/*register_post_type(
-		'dicasteres',
-			array(
-				'label' => 'Dicastères',
-				'singular_label' => 'Dicastère',
-				'labels' => array(
-					'menu_name' => 'Dicastères',
-					'all_items' => 'Tous les dicastères',
-					'add_new' => 'Ajouter un nouveau dicastère',
-					'add_new_item' => 'Ajouter un nouveau dicastère',
-					'edit_item' => 'Modifier les dicastères',
-					'new_item' => 'Nouveau dicastère',
-					'view_item' => 'Voir les dicastères',
-					'search_items' => 'Rechercher les dicastères',
-					'not_found' => 'Aucun dicastère trouvé',
-					'not_found_in_trash'=> 'Aucun dicastère trouvé dans la corbeille',
-					'parent' => 'Dicastère parent',
-				),
-				'public' => true,
-				'capability_type' => 'post',
-				'supports' => array(
-					'title',
-					'editor',
-					'thumbnail',
-					'custom-fields'
-				),
-				'has_archive' => true,
-        'menu_position' => 6
-			)
-    );*/
 
   register_taxonomy(
   'pilier_public_categorie',
@@ -169,29 +141,6 @@ function codex_custom_init() {
      'hierarchical' => true
    )
  );
-  /*register_taxonomy(
-  'dicastere_categorie',
-  'dicastere',
-   array(
-     'label' => 'Catégories',
-     'labels' => array(
-       'name' => 'Catégories',
-       'singular_name' => 'Catégorie',
-       'all_items' => 'Toutes les catégories',
-       'edit_item' => 'Éditer la catégorie',
-       'view_item' => 'Voir la catégorie',
-       'update_item' => 'Mettre à jour la catégorie',
-       'add_new_item' => 'Ajouter une catégorie',
-       'new_item_name' => 'Nouvelle catégorie',
-       'search_items' => 'Rechercher parmi les catégories',
-       'popular_items' => 'Catégories les plus utilisées'
-     ),
-     'hierarchical' => true
-   )
- );*/
-  register_taxonomy_for_object_type( 'pilier_public_categorie', 'pilier_public' );
-  //register_taxonomy_for_object_type( 'dicastere_categorie', 'dicastere' );
-}
 
 add_action('init', 'codex_custom_init');
 
