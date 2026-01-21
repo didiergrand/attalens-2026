@@ -140,8 +140,8 @@ hr {
  bottom: -100px !important;
 }
 .wp-block-table thead {  
-    border-bottom: 3px solid #333 !important;
-    border-left: 3px solid #333 !important;
-    border-top: 3px solid #333 !important;
-    border-right: 3px solid #333 !important;
+    border-bottom: 2px solid #333 !important;
+    border-left: 2px solid #333 !important;
+    border-top: 2px solid #333 !important;
+    border-right: 2px solid #333 !important;
 }
