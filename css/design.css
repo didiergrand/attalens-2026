@@ -139,3 +139,7 @@ hr {
 .cmplz-btn{
  bottom: -100px !important;
 }
+.wp-block-table thead {
+  border-bottom: 3px solid #333 !important;
+  border-top: 3px solid #333 !important;
+}
