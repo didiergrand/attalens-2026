@@ -145,3 +145,6 @@ hr {
     border-top: 2px solid #333 !important;
     border-right: 2px solid #333 !important;
 }
+.table > thead > tr > th{
+    border-bottom: 2px solid #333 !important;
+}
