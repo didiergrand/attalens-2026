@@ -148,3 +148,25 @@ hr {
 .table > thead > tr > th{
     border-bottom: 2px solid #333 !important;
 }
+
+
+.wp-block-esab-accordion-child{
+    border-radius: 4px !important;
+}
+#primary .wp-block-esab-accordion .wp-block-esab-accordion-child.esab__active_accordion{
+    border-color: #F2F2F2 !important;
+}
+#primary .wp-block-esab-accordion .wp-block-esab-accordion-child.esab__active_accordion .esab__head{
+    background-color: #F2F2F2 !important;
+    color: #333 !important;
+}
+#primary .wp-block-esab-accordion .wp-block-esab-accordion-child.esab__active_accordion .esab__body{
+    border-color: #F2F2F2 !important;
+    background-color: #fff !important;
+}
+#primary .wp-block-esab-accordion .wp-block-esab-accordion-child.esab__active_accordion .esab__heading_tag{
+    color: #333 !important;
+}
+#primary .wp-block-esab-accordion .wp-block-esab-accordion-child.esab__active_accordion .esab__expand svg{
+    fill: #333 !important;
+}
