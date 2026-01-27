@@ -1,0 +1,19 @@
+
+.wp-block-accordion{
+    border: 1px solid #F2F2F2 !important;
+    background-color: #fff !important;
+    margin: 1rem 0;
+}
+.wp-block-accordion-heading{
+    padding:0 1rem !important;
+    background-color: #F2F2F2 !important;
+    color: #333 !important;
+    font-size: 1rem !important;
+    margin: 0 !important;
+}
+.wp-block-accordion-panel{
+    padding: 1rem !important;
+}
+.wp-block-accordion-heading__toggle:hover .wp-block-accordion-heading__toggle-title{
+    text-decoration: none !important;
+}
