@@ -395,9 +395,9 @@ function cmplz_show_banner_on_click() {
 }
 add_action( 'wp_footer', 'cmplz_show_banner_on_click' );
 
-function setup_editor_styles() {
-    add_theme_support('editor-styles');
-
-    add_editor_style('css/editor-styles.css');
-}
-add_action('after_setup_theme', 'setup_editor_styles');
+add_action('enqueue_block_editor_assets', function() {
+    wp_enqueue_style(
+        'mon-style-editeur-sup', 
+        get_stylesheet_directory_uri() .'/css/editor-styles.css'
+    );
+});
