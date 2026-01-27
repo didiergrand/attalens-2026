@@ -398,6 +398,6 @@ add_action( 'wp_footer', 'cmplz_show_banner_on_click' );
 function setup_editor_styles() {
     add_theme_support('editor-styles');
 
-    add_editor_style('editor-styles.css');
+    add_editor_style('css/editor-styles.css');
 }
 add_action('after_setup_theme', 'setup_editor_styles');
