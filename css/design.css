@@ -150,8 +150,9 @@ hr {
 }
 
 .wp-block-accordion{
-    border-color: 1px solid #F2F2F2 !important;
+    border: 1px solid #F2F2F2 !important;
     background-color: #fff !important;
+    margin: 1rem 0;
 }
 .wp-block-accordion-heading{
     padding:0 1rem !important;
