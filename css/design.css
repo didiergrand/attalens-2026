@@ -149,24 +149,20 @@ hr {
     border-bottom: 2px solid #333 !important;
 }
 
-
-.wp-block-esab-accordion-child{
-    border-radius: 4px !important;
-}
-#primary .wp-block-esab-accordion .wp-block-esab-accordion-child.esab__active_accordion{
-    border-color: #F2F2F2 !important;
-}
-#primary .wp-block-esab-accordion .wp-block-esab-accordion-child.esab__active_accordion .esab__head{
-    background-color: #F2F2F2 !important;
-    color: #333 !important;
-}
-#primary .wp-block-esab-accordion .wp-block-esab-accordion-child.esab__active_accordion .esab__body{
-    border-color: #F2F2F2 !important;
+.wp-block-accordion{
+    border-color: 1px solid #F2F2F2 !important;
     background-color: #fff !important;
 }
-#primary .wp-block-esab-accordion .wp-block-esab-accordion-child.esab__active_accordion .esab__heading_tag{
+.wp-block-accordion-heading{
+    padding:0 1rem !important;
+    background-color: #F2F2F2 !important;
     color: #333 !important;
+    font-size: 1rem !important;
+    margin: 0 !important;
 }
-#primary .wp-block-esab-accordion .wp-block-esab-accordion-child.esab__active_accordion .esab__expand svg{
-    fill: #333 !important;
+.wp-block-accordion-panel{
+    padding: 1rem !important;
+}
+.wp-block-accordion-heading__toggle:hover .wp-block-accordion-heading__toggle-title{
+    text-decoration: none !important;
 }
