@@ -166,6 +166,7 @@ hr {
 .wp-block-accordion-heading__toggle:hover .wp-block-accordion-heading__toggle-title{
     text-decoration: none !important;
 }
-.wp-block-accordion-heading__toggle:hover{
+.wp-block-accordion-heading__toggle:hover,
+.wp-block-accordion-heading__toggle:focus{
 	background-color: #F2F2F2 !important;
 }
